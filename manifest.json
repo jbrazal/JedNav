@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Jedder's PSoft Navigation Extract",
+  "version": "0.1",
+  "description": "Extracts the navigation of the current PeopleSoft component so it can easily be copied.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "psnav.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
